@@ -5,7 +5,7 @@ let customersToDisplay = [];
 let transactionsToDisplay = [];
 
 (async () =>{
-  customersPreSort =  await getResponse('https://my-json-server.typicode.com/mamdouh-radwan/Transaction-Control/customers');
+  customersPreSort =  await getResponse('https://my-json-server.typicode.com/Mamdouh-Radwan/Transaction-Control/customers');
   transactionsPreSort = await getResponse('https://my-json-server.typicode.com/Mamdouh-Radwan/Transaction-Control/transactions');
 })();
 
@@ -141,4 +141,15 @@ AmountFilter.addEventListener('click',(e) =>{
   }
 })
 
+// document.querySelector('#minAmount').addEventListener('change', (e) =>{
+//   if(e.target.value = ''){
+//     sortData(document.querySelector('#sortBy').value , document.querySelector('#sortOrder').value);
+//   }
+// })
+
+// document.querySelector('#maxAmount').addEventListener('change', (e) =>{
+//   if(e.target.value = ''){
+//     sortData(document.querySelector('#sortBy').value , document.querySelector('#sortOrder').value);
+//   }
+// })
 
