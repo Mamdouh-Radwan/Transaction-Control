@@ -13,3 +13,12 @@ table td{
 .searchByAmount div div{
     width: 48%;
 }
+
+@media screen and (max-width: 786px) {
+    #userSearch{
+        width: 100% !important;
+    }
+    .searchByAmount{
+        width: 100% !important;
+    }
+}
