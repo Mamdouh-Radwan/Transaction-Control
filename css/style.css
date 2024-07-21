@@ -1,0 +1,15 @@
+/* general style */
+*{
+    box-sizing: border-box;
+}
+
+table th{
+    vertical-align: middle;
+    border: 4px #DEE2E6 solid;
+}
+table td{
+    border: 2px #DEE2E6 solid;
+}
+.searchByAmount div div{
+    width: 48%;
+}
